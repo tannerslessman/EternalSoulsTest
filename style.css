@@ -1,0 +1,128 @@
+html{
+    background: rgb(1,0,9);
+    background: linear-gradient(20deg, rgb(14, 13, 13) 0%, rgb(65, 63, 63) 35%, rgb(0, 0, 0) 100%);
+}
+
+.container {
+    max-width: 100%;
+	background-size: cover;
+	background-position: center;
+	padding: 0;
+}
+
+li{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+hr{
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+#navBar{
+	display: flex;
+	justify-content: flex-end;
+	background-color: black;
+	padding-top: 10px;
+    height: 50px;
+}
+
+#navBar li{
+	display: inline-block;
+	padding: 35px 10px;
+	text-align: center;
+}
+
+
+#navBar li.click {
+	color: #d3d3d3;
+	border-bottom: 3px solid black;
+	font-weight: bold;
+}
+
+#navBar a{
+	text-decoration: none;
+	color: #fff;
+}
+
+#navBar img{
+	margin: 0 1300px;
+	height: 50px;
+}
+
+
+
+form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+}
+
+input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.fa{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+
+form:hover{
+    width: 200px;
+    cursor: pointer;
+}
+
+form:hover input{
+    display: block;
+}
+
+form:hover .fa{
+    background: black;
+    color: white;
+}
+
+.mainContent{ 
+	text-align: center;
+}
+
+.mainContent img{
+	border: 1px solid white;
+}
+
+.mainContent h1{
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
